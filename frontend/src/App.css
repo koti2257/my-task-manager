@@ -1,0 +1,75 @@
+/* Reset and layout */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f4f7;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 20px;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+}
+
+/* Title */
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Task list styles */
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.task-item {
+  background-color: #f0f4f8;
+  border-left: 5px solid #007bff;
+  margin-bottom: 16px;
+  padding: 16px 20px;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+}
+
+.task-item:hover {
+  background-color: #e3ebf5;
+}
+
+.task-item h3 {
+  margin: 0 0 8px;
+  font-size: 18px;
+  color: #1a1a1a;
+}
+
+.task-item p {
+  margin: 0;
+  color: #555;
+}
+
+/* Status & error messages */
+.status {
+  text-align: center;
+  font-size: 16px;
+  color: #666;
+}
+
+.error {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+}
